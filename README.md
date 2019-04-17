@@ -9,3 +9,8 @@ or
 Give full path of file 
 
 php {FullPath}/OMDBAPI.php -m '{MovieName}'
+
+
+#Python
+
+python  OMDBAPI.py 'Bahubali'
