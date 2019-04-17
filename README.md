@@ -1,4 +1,4 @@
-# omdb
+#Open Movie Database API Search
 
 Please Run  below commnad at OMDBAPI.php file location in linux 
 
