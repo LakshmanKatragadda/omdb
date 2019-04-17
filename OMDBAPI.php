@@ -7,7 +7,7 @@ if(isset($options['m']))
         $movie_name=$options['m'];
         $json = file_get_contents("http://www.omdbapi.com/?t='".urlencode($movie_name)."'&apikey=8d6012");
         $data = json_decode($json);
-        $Title=isset($data->Title)?$data->Title:'IMDB Rating not found';
+        $Title=isset($data->Title)?$data->Title:'Movie name not found';
         $imdbRating=isset($data->imdbRating)?$data->imdbRating:'IMDB Rating not found';
         $Ratings=isset($data->Ratings)?$data->Ratings:array();
         if(sizeof($Ratings) > 0)
